@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="include/js/ActionHandler.js"></script>
+        <script src="modules/in_profile/js_action/in_profile_show_log_page.js"></script>
+        <script src="modules/visitor_profile/js_action/visitor_profile_show_management_page.js"></script>
+       
+    </head>
+    <body>
+        <a href="index.html">KUAS活動</a>
+        <div id="all">
+        <table>
+            <tr>
+                <td>
+                    <div style="display: inline" onclick="(new visitor_profile_show_management_page('visitor_profile','show_management_page','content')).run()">進入頁面</div>
+                </td>
+            </tr>
+        </table>
+        <div id="content"></div>
+        </div>
+    </body>
+</html>
